@@ -67,7 +67,10 @@ public class AleatorioEmple {
 			file.writeInt(dep[i]);
 			file.writeDouble(salario[i]);
 		}
+		System.out.println("VALIDO PROYECTO ACTIVIDAD4");
 		file.close();
 	}// fin crear
 
 }// fin class
+
+
