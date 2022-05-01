@@ -26,6 +26,8 @@ public class AleatorioEmple {
 				for (int i = 0; i < cad.length; i++) {
 					aux = file.readChar();
 					cad[i] = aux;
+					
+					System.out.println("SEGUNDA MODIFICACIÓN");
 				}
 				nom = new String(cad);
 				dep = file.readInt();
